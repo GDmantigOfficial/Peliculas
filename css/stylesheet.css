@@ -1,0 +1,40 @@
+body{
+    background-image: url(../Resources/bg.jpg);
+    /* background-color: rgb(173, 173, 173); */
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    padding: 15px;
+}
+.Principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Custom01{
+    background-color: rgba(202, 210, 219, 0.569);
+    border: solid white 5px;
+    border-radius: 5px;
+    padding: 25px;
+}
+.Custom02{
+    /* border: double black 5px;
+    border-radius: 5px; */
+    padding: 25px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+/*Error*/
+.Body2{
+    background-image: url(../Resources/bg.jpg);
+    margin: 50px;
+    /* background-color: rgb(173, 173, 173); */
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    padding: 15px;
+}
+.Custom03{
+    /* background-color: rgba(143, 186, 236, 0.569); */
+    /* border: solid white 5px; */
+    border-radius: 5px;
+    padding: 25px;
+}

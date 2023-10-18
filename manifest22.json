@@ -1,0 +1,571 @@
+{
+    "short_name": "Peliculas",
+    "name": "Aplicacion de reservacion de peliculas", 
+    "start_url": "index.html", 
+    "background_color": "#bbbbbb", 
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait", 
+    "icons":[
+        {
+            "src": "Resources/Iconos/Configurar32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Configurar48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Configurar64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Configurar72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Configurar96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Configurar128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Configurar256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Configurar512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Del32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Del48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Del64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Del72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Del96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Del128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Del256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Del512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Edit32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Edit48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Edit64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Edit72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Edit96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Edit128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Edit256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Edit512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        }, 
+        {
+            "src": "Resources/Iconos/Face32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Face48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Face64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Face72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Face96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Face128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Face256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Face512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Ham32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Ham48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Ham64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Ham72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Ham96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Ham128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Ham256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Ham512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        }, 
+        {
+            "src": "Resources/Iconos/LogIn32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/LogIn48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/LogIn64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/LogIn72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/LogIn96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/LogIn128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/LogIn256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/LogIn512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/LogOut32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/LogOut48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/LogOut64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/LogOut72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/LogOut96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/LogOut128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/LogOut256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/LogOut512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Mail32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Mail48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Mail64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Mail72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Mail96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Mail128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Mail256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Mail512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Pel32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Pel48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Pel64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Pel72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Pel96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Pel128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Pel256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Pel512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Ready32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Ready48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Ready64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Ready72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Ready96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Ready128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Ready256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Ready512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Registro32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Registro48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Registro64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Registro72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Registro96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Registro128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Registro256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Registro512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Search32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Search48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Search64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Search72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Search96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Search128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Search256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Search512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Share32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Share48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Share64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Share72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Share96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Share128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Share256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Share512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Wha32.ico", 
+            "type": "image/ico",
+            "sizes": "32x32"
+        },
+        {
+            "src": "Resources/Iconos/Wha48.ico", 
+            "type": "image/ico",
+            "sizes": "48x48"
+        },
+        {
+            "src": "Resources/Iconos/Wha64.ico", 
+            "type": "image/ico",
+            "sizes": "64x64"
+        },
+        {
+            "src": "Resources/Iconos/Wha72.ico", 
+            "type": "image/ico",
+            "sizes": "72x72"
+        },
+        {
+            "src": "Resources/Iconos/Wha96.ico", 
+            "type": "image/ico",
+            "sizes": "96x96"
+        },
+        {
+            "src": "Resources/Iconos/Wha128.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Wha256.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        },
+        {
+            "src": "Resources/Iconos/Wha512.ico", 
+            "type": "image/ico",
+            "sizes": "128x128"
+        }
+    ]
+}
