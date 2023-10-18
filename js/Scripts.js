@@ -43,7 +43,14 @@ function pushOnTable(){
     BotonEditarx1.innerText = "Editar";
     BotonEditarx1.classList.add("btn", "btn-primary");
     BotonEliminarx1.addEventListener("click", e =>{
-        e.target.parentElement.parentElement.remove();
+        let resp = prompt("¿Deseas realmente eliminar esta fila?");
+        resp = resp.toUpperCase();
+        if(resp == "SI" || resp == "SÍ"){
+            e.target.parentElement.parentElement.remove();
+        }
+        else{
+            //no
+        }
     })
     BotonEditarx1.addEventListener("click", e =>{
         FilaEditar = e.target.parentElement.parentElement;
