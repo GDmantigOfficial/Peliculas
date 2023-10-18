@@ -16,6 +16,7 @@ function pushOnTable(){
     const myList = document.querySelector("tbody");
     console.log(myList);
     const Fila = document.createElement("tr");
+    Fila.classList.add("text-white");
     let ENombre = document.createElement("td");
     ENombre.innerHTML = `<td> ${Nombre.value} </td>`;
     ENombre.value = `${Nombre.value}`;
